@@ -1,0 +1,6 @@
+language: java
+install:
+  - mvn install:install-file -Dfile=libs/icepdf-core.jar -DgroupId=org.icepdf -DartifactId=icepdf-core -Dversion=5.1.1 -Dpackaging=jar
+  - mvn install:install-file -Dfile=libs/icepdf-viewer.jar -DgroupId=org.icepdf -DartifactId=icepdf-viewer -Dversion=5.1.1 -Dpackaging=jar
+jdk:
+  - oraclejdk7
