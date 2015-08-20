@@ -20,7 +20,7 @@ public class PdfPreviewPanel {
     }
 
     public void buildPanel() {
-        Log.debug("Instantiating a new panel..");
+        //Log.debug("Instantiating a new panel..");
 
         controller = new SwingController();
 
